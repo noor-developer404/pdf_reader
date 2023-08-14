@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#FFEEEE"
+    android:layout_margin="1dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_pdf"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="pdf ka naam hai.pdf"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"
+        android:id="@+id/rv_item_name"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
